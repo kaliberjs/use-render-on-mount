@@ -15,7 +15,7 @@ yarn add @kaliber/use-render-on-mount
 
 ## Usage
 ```jsx
-import { useRenderOnMount } from 'use-render-on-mount'
+import { useRenderOnMount } from '@kaliber/use-render-on-mount'
 
 function Component() {
   const isMounted = useRenderOnMount()
