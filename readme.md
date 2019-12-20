@@ -1,8 +1,8 @@
 # useRenderOnMount
-Returns a boolean indicating wether a component is mounted, so you can render on mount.
+Returns a boolean indicating whether a component is mounted, so you can render on mount.
 
 ## Motivation
-In some cases you don't want to render a component universally, but rather only on the client. This hook provides a boolean indicating wether a component is mounted, which you can use to conditionally render the component. 
+In some cases you don't want to render a component universally, but rather only on the client. This hook provides a boolean indicating whether a component is mounted, which you can use to conditionally render the component. 
 
 When the boolean is flipped, a re-render happens so you can update your UI accordingly.
 
@@ -19,7 +19,7 @@ import { useRenderOnMount } from 'use-render-on-mount'
 
 function Component() {
   const isMounted = useRenderOnMount()
-  return isMounted ? '😎' : null
+  return isMounted && '😎'
 }
 ```
 

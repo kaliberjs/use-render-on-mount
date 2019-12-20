@@ -19,7 +19,7 @@
   ],
   "private": false,
   "license": "MIT",
-  "description": "Returns a boolean indicating wether a component is mounted, so you can render on mount.",
+  "description": "Returns a boolean indicating whether a component is mounted, so you can render on mount.",
   "repository": "https://github.com/kaliberjs/use-render-on-mount.git",
   "contributors": [
     "Joost Kiens <joost@kaliber.net>",

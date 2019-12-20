@@ -2,7 +2,7 @@ import App from '/domain/App?universal'
 import javascript from '@kaliber/build/lib/javascript'
 
 export default (
-  <html lang='nl'>
+  <html lang='en'>
     <head>
       <meta charSet='utf-8' />
       <title>useRenderOnMount</title>
