@@ -1,6 +1,6 @@
 {
   "name": "@kaliber/use-render-on-mount",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "sideEffects": false,
   "publishConfig": {
